@@ -12,9 +12,11 @@ Zhao, Zhichen, Huimin Ma, and Shaodi You. "Single image action recognition using
 git clone https://github.com/whytin/Part-action-network_Keras.git
 cd Part-action-network_Keras
 ```
-3. Prepare datasets.    
+3. Download Penn_action dataset.    
 
-Download dataset Penn_stanford40:
+https://dreamdragon.github.io/PennAction/
 
 4. Run experiment:
-python train.py
+```
+ python train.py
+```
