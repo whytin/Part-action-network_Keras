@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../Mask_RCNN_Humanpose/.idea/Mask_RCNN_Humanpose.iml" filepath="$PROJECT_DIR$/../Mask_RCNN_Humanpose/.idea/Mask_RCNN_Humanpose.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Mask_R_CNN_Keypoints/.idea/Mask_R_CNN_Keypoints.iml" filepath="$PROJECT_DIR$/../Mask_R_CNN_Keypoints/.idea/Mask_R_CNN_Keypoints.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../zoukai/Desktop/Mask_R_CNN_Keypoints-master/.idea/Mask_R_CNN_Keypoints-master.iml" filepath="$PROJECT_DIR$/../../../zoukai/Desktop/Mask_R_CNN_Keypoints-master/.idea/Mask_R_CNN_Keypoints-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../keras-gcn/.idea/keras-gcn.iml" filepath="$PROJECT_DIR$/../keras-gcn/.idea/keras-gcn.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/keras-resnet50.iml" filepath="$PROJECT_DIR$/.idea/keras-resnet50.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../zoukai/Desktop/tf-pose-estimation/tf-openpose/.idea/tf-openpose.iml" filepath="$PROJECT_DIR$/../../../zoukai/Desktop/tf-pose-estimation/tf-openpose/.idea/tf-openpose.iml" />
+    </modules>
+  </component>
+</project>

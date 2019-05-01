@@ -1,0 +1,724 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="12b3c93f-d9d8-4499-abc9-5736b43be8fa" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/../Mask_RCNN_Humanpose/LightEnet/Model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mask_RCNN_Humanpose/LightEnet/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mask_RCNN_Humanpose/LightEnet/util.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mask_RCNN_Humanpose/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../Mask_RCNN_Humanpose/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mask_RCNN_Humanpose/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/../Mask_RCNN_Humanpose/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mask_RCNN_Humanpose/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Mask_RCNN_Humanpose/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mask_RCNN_Humanpose/assets/4k_video.gif" beforeDir="false" afterPath="$PROJECT_DIR$/../Mask_RCNN_Humanpose/assets/4k_video.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mask_RCNN_Humanpose/assets/detection_activations.png" beforeDir="false" afterPath="$PROJECT_DIR$/../Mask_RCNN_Humanpose/assets/detection_activations.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mask_RCNN_Humanpose/assets/detection_anchors.png" beforeDir="false" afterPath="$PROJECT_DIR$/../Mask_RCNN_Humanpose/assets/detection_anchors.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mask_RCNN_Humanpose/assets/detection_final.png" beforeDir="false" afterPath="$PROJECT_DIR$/../Mask_RCNN_Humanpose/assets/detection_final.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mask_RCNN_Humanpose/assets/detection_histograms.png" beforeDir="false" afterPath="$PROJECT_DIR$/../Mask_RCNN_Humanpose/assets/detection_histograms.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mask_RCNN_Humanpose/assets/detection_masks.png" beforeDir="false" afterPath="$PROJECT_DIR$/../Mask_RCNN_Humanpose/assets/detection_masks.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mask_RCNN_Humanpose/assets/detection_refinement.png" beforeDir="false" afterPath="$PROJECT_DIR$/../Mask_RCNN_Humanpose/assets/detection_refinement.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mask_RCNN_Humanpose/assets/detection_tensorboard.png" beforeDir="false" afterPath="$PROJECT_DIR$/../Mask_RCNN_Humanpose/assets/detection_tensorboard.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mask_RCNN_Humanpose/assets/donuts.png" beforeDir="false" afterPath="$PROJECT_DIR$/../Mask_RCNN_Humanpose/assets/donuts.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mask_RCNN_Humanpose/assets/sheep.png" beforeDir="false" afterPath="$PROJECT_DIR$/../Mask_RCNN_Humanpose/assets/sheep.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mask_RCNN_Humanpose/assets/street.png" beforeDir="false" afterPath="$PROJECT_DIR$/../Mask_RCNN_Humanpose/assets/street.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mask_RCNN_Humanpose/coco.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Mask_RCNN_Humanpose/coco.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mask_RCNN_Humanpose/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Mask_RCNN_Humanpose/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mask_RCNN_Humanpose/demo_human_pose.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../Mask_RCNN_Humanpose/demo_human_pose.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mask_RCNN_Humanpose/human_pose.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Mask_RCNN_Humanpose/human_pose.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mask_RCNN_Humanpose/images/1045023827_4ec3e8ba5c_z.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../Mask_RCNN_Humanpose/images/1045023827_4ec3e8ba5c_z.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mask_RCNN_Humanpose/images/12283150_12d37e6389_z.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../Mask_RCNN_Humanpose/images/12283150_12d37e6389_z.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mask_RCNN_Humanpose/images/2383514521_1fc8d7b0de_z.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../Mask_RCNN_Humanpose/images/2383514521_1fc8d7b0de_z.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mask_RCNN_Humanpose/images/2502287818_41e4b0c4fb_z.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../Mask_RCNN_Humanpose/images/2502287818_41e4b0c4fb_z.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mask_RCNN_Humanpose/images/2516944023_d00345997d_z.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../Mask_RCNN_Humanpose/images/2516944023_d00345997d_z.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mask_RCNN_Humanpose/images/25691390_f9944f61b5_z.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../Mask_RCNN_Humanpose/images/25691390_f9944f61b5_z.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mask_RCNN_Humanpose/images/262985539_1709e54576_z.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../Mask_RCNN_Humanpose/images/262985539_1709e54576_z.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mask_RCNN_Humanpose/images/3132016470_c27baa00e8_z.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../Mask_RCNN_Humanpose/images/3132016470_c27baa00e8_z.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mask_RCNN_Humanpose/images/3627527276_6fe8cd9bfe_z.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../Mask_RCNN_Humanpose/images/3627527276_6fe8cd9bfe_z.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mask_RCNN_Humanpose/images/3651581213_f81963d1dd_z.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../Mask_RCNN_Humanpose/images/3651581213_f81963d1dd_z.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mask_RCNN_Humanpose/images/3800883468_12af3c0b50_z.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../Mask_RCNN_Humanpose/images/3800883468_12af3c0b50_z.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mask_RCNN_Humanpose/images/3862500489_6fd195d183_z.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../Mask_RCNN_Humanpose/images/3862500489_6fd195d183_z.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mask_RCNN_Humanpose/images/3878153025_8fde829928_z.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../Mask_RCNN_Humanpose/images/3878153025_8fde829928_z.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mask_RCNN_Humanpose/images/4410436637_7b0ca36ee7_z.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../Mask_RCNN_Humanpose/images/4410436637_7b0ca36ee7_z.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mask_RCNN_Humanpose/images/4782628554_668bc31826_z.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../Mask_RCNN_Humanpose/images/4782628554_668bc31826_z.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mask_RCNN_Humanpose/images/5951960966_d4e1cda5d0_z.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../Mask_RCNN_Humanpose/images/5951960966_d4e1cda5d0_z.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mask_RCNN_Humanpose/images/6584515005_fce9cec486_z.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../Mask_RCNN_Humanpose/images/6584515005_fce9cec486_z.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mask_RCNN_Humanpose/images/6821351586_59aa0dc110_z.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../Mask_RCNN_Humanpose/images/6821351586_59aa0dc110_z.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mask_RCNN_Humanpose/images/7581246086_cf7bbb7255_z.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../Mask_RCNN_Humanpose/images/7581246086_cf7bbb7255_z.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mask_RCNN_Humanpose/images/7933423348_c30bd9bd4e_z.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../Mask_RCNN_Humanpose/images/7933423348_c30bd9bd4e_z.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mask_RCNN_Humanpose/images/8053677163_d4c8f416be_z.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../Mask_RCNN_Humanpose/images/8053677163_d4c8f416be_z.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mask_RCNN_Humanpose/images/8239308689_efa6c11b08_z.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../Mask_RCNN_Humanpose/images/8239308689_efa6c11b08_z.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mask_RCNN_Humanpose/images/8433365521_9252889f9a_z.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../Mask_RCNN_Humanpose/images/8433365521_9252889f9a_z.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mask_RCNN_Humanpose/images/8512296263_5fc5458e20_z.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../Mask_RCNN_Humanpose/images/8512296263_5fc5458e20_z.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mask_RCNN_Humanpose/images/8699757338_c3941051b6_z.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../Mask_RCNN_Humanpose/images/8699757338_c3941051b6_z.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mask_RCNN_Humanpose/images/8734543718_37f6b8bd45_z.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../Mask_RCNN_Humanpose/images/8734543718_37f6b8bd45_z.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mask_RCNN_Humanpose/images/8829708882_48f263491e_z.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../Mask_RCNN_Humanpose/images/8829708882_48f263491e_z.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mask_RCNN_Humanpose/images/9118579087_f9ffa19e63_z.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../Mask_RCNN_Humanpose/images/9118579087_f9ffa19e63_z.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mask_RCNN_Humanpose/images/9247489789_132c0d534a_z.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../Mask_RCNN_Humanpose/images/9247489789_132c0d534a_z.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mask_RCNN_Humanpose/inference_humanpose.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../Mask_RCNN_Humanpose/inference_humanpose.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mask_RCNN_Humanpose/inspect_humanpose.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../Mask_RCNN_Humanpose/inspect_humanpose.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mask_RCNN_Humanpose/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Mask_RCNN_Humanpose/model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mask_RCNN_Humanpose/parallel_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Mask_RCNN_Humanpose/parallel_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mask_RCNN_Humanpose/train_human_pose.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../Mask_RCNN_Humanpose/train_human_pose.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mask_RCNN_Humanpose/train_shapes.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../Mask_RCNN_Humanpose/train_shapes.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mask_RCNN_Humanpose/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Mask_RCNN_Humanpose/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mask_RCNN_Humanpose/video_demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Mask_RCNN_Humanpose/video_demo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mask_RCNN_Humanpose/visualize.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Mask_RCNN_Humanpose/visualize.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mask_R_CNN_Keypoints/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Mask_R_CNN_Keypoints/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mask_R_CNN_Keypoints/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Mask_R_CNN_Keypoints/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mask_R_CNN_Keypoints/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Mask_R_CNN_Keypoints/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mask_R_CNN_Keypoints/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Mask_R_CNN_Keypoints/model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mask_R_CNN_Keypoints/pictures/Screenshot from 2017-12-27 14-45-17.png" beforeDir="false" afterPath="$PROJECT_DIR$/../Mask_R_CNN_Keypoints/pictures/Screenshot from 2017-12-27 14-45-17.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mask_R_CNN_Keypoints/pictures/Screenshot from 2017-12-27 14-46-05.png" beforeDir="false" afterPath="$PROJECT_DIR$/../Mask_R_CNN_Keypoints/pictures/Screenshot from 2017-12-27 14-46-05.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mask_R_CNN_Keypoints/pictures/Screenshot from 2017-12-27 14-46-44.png" beforeDir="false" afterPath="$PROJECT_DIR$/../Mask_R_CNN_Keypoints/pictures/Screenshot from 2017-12-27 14-46-44.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mask_R_CNN_Keypoints/pictures/Screenshot from 2017-12-27 14-48-29.png" beforeDir="false" afterPath="$PROJECT_DIR$/../Mask_R_CNN_Keypoints/pictures/Screenshot from 2017-12-27 14-48-29.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mask_R_CNN_Keypoints/pictures/output_layer.png" beforeDir="false" afterPath="$PROJECT_DIR$/../Mask_R_CNN_Keypoints/pictures/output_layer.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mask_R_CNN_Keypoints/pictures/segmented_image.png" beforeDir="false" afterPath="$PROJECT_DIR$/../Mask_R_CNN_Keypoints/pictures/segmented_image.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mask_R_CNN_Keypoints/pictures/test_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/../Mask_R_CNN_Keypoints/pictures/test_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mask_R_CNN_Keypoints/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Mask_R_CNN_Keypoints/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mask_R_CNN_Keypoints/visualize" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../zoukai/Desktop/tf-pose-estimation/tf-openpose/models/graph/cmu/download.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../../../zoukai/Desktop/tf-pose-estimation/tf-openpose/models/graph/cmu/download.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../zoukai/Desktop/tf-pose-estimation/tf-openpose/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../zoukai/Desktop/tf-pose-estimation/tf-openpose/run.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../zoukai/Desktop/tf-pose-estimation/tf-openpose/tf_pose/estimator.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../zoukai/Desktop/tf-pose-estimation/tf-openpose/tf_pose/estimator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../zoukai/Desktop/tf-pose-estimation/tf-openpose/tf_pose/pafprocess/pafprocess.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../zoukai/Desktop/tf-pose-estimation/tf-openpose/tf_pose/pafprocess/pafprocess.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../zoukai/Desktop/tf-pose-estimation/tf-openpose/tf_pose/pafprocess/pafprocess_wrap.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../zoukai/Desktop/tf-pose-estimation/tf-openpose/tf_pose/pafprocess/pafprocess_wrap.cpp" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="utils.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/utils.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1458">
+              <caret line="84" column="1" selection-start-line="84" selection-start-column="1" selection-end-line="84" selection-end-column="1" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gen_part.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gen_part.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="18">
+              <caret line="58" column="40" lean-forward="true" selection-start-line="58" selection-start-column="40" selection-end-line="58" selection-end-column="40" />
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="keypointjson.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../../zoukai/Desktop/tf-pose-estimation/tf-openpose/keypointjson.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="272" selection-start-column="272" selection-end-column="272" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="train.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/train.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1116">
+              <caret line="76" column="31" selection-start-line="76" selection-start-column="31" selection-end-line="76" selection-end-column="31" />
+              <folding>
+                <element signature="e#0#48#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="model.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../Mask_RCNN_Humanpose/model.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2173">
+              <caret line="3000" column="43" selection-start-line="3000" selection-start-column="37" selection-end-line="3000" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DSC-Net-L2-COIL20.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../Deep-subspace-clustering-networks/DSC-Net-L2-COIL20.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="graph.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../keras-gcn/kegra/layers/graph.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="17" column="43" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
+              <folding>
+                <element signature="e#0#37#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DSC-Net-L2-ORL.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Downloads/DSC-Net-L2-ORL.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4428">
+              <caret line="255" column="66" selection-start-line="255" selection-start-column="66" selection-end-line="255" selection-end-column="66" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dataset.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dataset.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="penn_action_visualize.ipynb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../Mask_RCNN_Humanpose/penn_action_visualize.ipynb">
+          <provider selected="true" editor-type-id="ipnb-editor">
+            <state>
+              <selected id="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>rmsprop</find>
+      <find>input_shape</find>
+      <find>build</find>
+      <find>keras_model</find>
+      <find>self.keras_model</find>
+      <find>maskrcnn</find>
+      <find>com</find>
+      <find>add_loss</find>
+    </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../Mask_RCNN_Humanpose" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Resnet50.py" />
+        <option value="$PROJECT_DIR$/__init__.py" />
+        <option value="$PROJECT_DIR$/imagenet_utils.py" />
+        <option value="$PROJECT_DIR$/resnet50.py" />
+        <option value="$PROJECT_DIR$/dataset.py" />
+        <option value="$PROJECT_DIR$/train.py" />
+        <option value="$PROJECT_DIR$/predict.py" />
+        <option value="$PROJECT_DIR$/Penn.py" />
+        <option value="$PROJECT_DIR$/gen_part.py" />
+        <option value="$PROJECT_DIR$/utils.py" />
+        <option value="$PROJECT_DIR$/../Keras_Deep_Clustering/KSubspace.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="27" />
+    <option name="width" value="1287" />
+    <option name="height" value="780" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="keras-stanford40" type="b2602c69:ProjectViewProjectNode" />
+              <item name="keras-stanford40" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="keras-stanford40" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Mask_R_CNN_Keypoints-master" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="keras-stanford40" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Mask_RCNN_Humanpose" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="keras-stanford40" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Mask_RCNN_Humanpose" type="462c0819:PsiDirectoryNode" />
+              <item name="pycocotools" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="k&#9;FILE&#9;file:///home/zoukai/Desktop/tf-pose-estimation/tf-openpose/keypointjson.json&#10;self.k&#9;null&#9;null&#10;maskrcnn&#9;null&#9;null&#10;build_rpn_action_graph&#9;null&#9;null&#10;maskrc&#9;null&#9;null" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Mask_RCNN_Humanpose/model.py" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="12b3c93f-d9d8-4499-abc9-5736b43be8fa" name="Default" comment="" />
+      <created>1539596132164</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1539596132164</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="26" width="1440" height="874" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25416666" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Python Console" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/resnet50.py</url>
+          <line>9</line>
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../keras-gcn/kegra/layers/graph.py</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="2" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/gen_part.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../keras-gcn/kegra/train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="22" column="69" lean-forward="true" selection-start-line="22" selection-start-column="67" selection-end-line="22" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../keras-gcn/kegra/layers/graph.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="17" column="43" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../keras-gcn/kegra/data/cora/cora.content">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../keras-gcn/kegra/data/cora/cora.cites">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../keras-gcn/kegra/data/cora/README">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="22" column="189" selection-start-line="22" selection-start-column="189" selection-end-line="22" selection-end-column="189" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../keras-gcn/kegra/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1026">
+          <caret line="61" column="4" selection-start-line="61" selection-start-column="4" selection-end-line="61" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../zoukai/Desktop/tf-pose-estimation/tf-openpose/zoukai_keypoint.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../zoukai/Desktop/tf-pose-estimation/tf-openpose/keypointjson.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="272" selection-start-column="272" selection-end-column="272" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gen_part.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../keras-gcn/kegra/layers/graph.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="17" column="43" lean-forward="true" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../keras-gcn/kegra/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../keras-gcn/kegra/data/cora/cora.content">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../keras-gcn/kegra/data/cora/cora.cites">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../keras-gcn/kegra/data/cora/README">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="22" column="189" selection-start-line="22" selection-start-column="189" selection-end-line="22" selection-end-column="189" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../keras-gcn/kegra/train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1548">
+          <caret line="96" column="59" lean-forward="true" selection-start-line="96" selection-start-column="59" selection-end-line="97" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resnet50.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resnet50.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2412">
+          <caret line="144" column="30" selection-start-line="144" selection-start-column="30" selection-end-line="144" selection-end-column="30" />
+          <folding>
+            <element signature="e#180#218#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/predict.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="47" column="28" selection-start-line="47" selection-start-column="28" selection-end-line="47" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataset.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="7" column="23" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imagenet_utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="20" column="42" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../part-action-network/training/part_action_with_ctx_trainval.prototxt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="4870" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imagenet_utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="20" column="42" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resnet50.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2412">
+          <caret line="144" column="30" selection-start-line="144" selection-start-column="30" selection-end-line="144" selection-end-column="30" />
+          <folding>
+            <element signature="e#180#218#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resnet50.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/predict.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="47" column="28" selection-start-line="47" selection-start-column="28" selection-end-line="47" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../zoukai/Desktop/Mask_R_CNN_Keypoints-master/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="466" column="23" lean-forward="true" selection-start-line="466" selection-start-column="23" selection-end-line="466" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../zoukai/Desktop/tf-pose-estimation/tf-openpose/zoukai_keypoint.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../keras-gcn/kegra/data/cora/README">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="22" column="189" selection-start-line="22" selection-start-column="189" selection-end-line="22" selection-end-column="189" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../keras-gcn/kegra/data/cora/cora.cites">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../keras-gcn/kegra/data/cora/cora.content">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../keras-gcn/kegra/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1242">
+          <caret line="73" selection-start-line="73" selection-end-line="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../keras-gcn/kegra/train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="52" column="27" selection-start-line="52" selection-start-column="27" selection-end-line="52" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Mask_RCNN_Humanpose/Penn_dataset.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1077" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Mask_RCNN_Humanpose/Penn_dataset.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Penn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataset.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Mask_RCNN_Humanpose/penn_action_visualize.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../keras-gcn/kegra/layers/graph.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="17" column="43" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/DSC-Net-L2-ORL.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4428">
+          <caret line="255" column="66" selection-start-line="255" selection-start-column="66" selection-end-line="255" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1458">
+          <caret line="84" column="1" selection-start-line="84" selection-start-column="1" selection-end-line="84" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../zoukai/Desktop/tf-pose-estimation/tf-openpose/keypointjson.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="272" selection-start-column="272" selection-end-column="272" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Keras_Deep_Clustering/KSubspace.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="457">
+          <caret line="90" column="4" selection-start-line="90" selection-start-column="4" selection-end-line="92" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1116">
+          <caret line="76" column="31" selection-start-line="76" selection-start-column="31" selection-end-line="76" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Deep-subspace-clustering-networks/DSC-Net-L2-COIL20.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gen_part.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="58" column="40" lean-forward="true" selection-start-line="58" selection-start-column="40" selection-end-line="58" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Mask_RCNN_Humanpose/model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2173">
+          <caret line="3000" column="43" selection-start-line="3000" selection-start-column="37" selection-end-line="3000" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
